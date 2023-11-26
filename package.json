@@ -1,0 +1,8 @@
+{
+  "name": "hau",
+  "version": "1.0.0",
+  "description": "hau social",
+  "main": "server.ts",
+  "author": "hau",
+  "license": "MIT"
+}

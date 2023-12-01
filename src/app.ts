@@ -6,6 +6,7 @@ import helmet from 'helmet';
 import hpp from 'hpp';
 import mongoose from 'mongoose';
 import morgan from 'morgan';
+import { errorMiddleware } from '@core/middleware';
 
 class App {
   public app: express.Application;
@@ -44,6 +45,8 @@ class App {
       this.app.use(morgan('dev'));
       this.app.use(cors({ origin: true, credentials: true }));
     }
+
+    this.app.use(errorMiddleware)
   }
 
   private connectToDatabase() {

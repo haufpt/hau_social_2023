@@ -58,6 +58,10 @@
 - yarn add @type/hpp @type/morgan @type/morgan --dev
   -- yarn add wiston
 
+### lession 17: Khai bao cac module trong ts
+
+- sudo yarn add --dev tsconfig-paths
+
 ### Reference
 
 - https://expressjs.com/en/resources/middleware/morgan.html
